@@ -12,13 +12,11 @@
   padding-top:80px;
   justify-content: center;
 }
-
 .clt-name{
   font-size: var(--font-size-24);
   padding-bottom: 16px;
   padding-left: 40px;
 }
-
 .work-name{
   font-size: var(--font-size-48);
   padding-left: 40px;
@@ -66,4 +64,9 @@ margin-bottom: 80px ;
   margin-top: 32px;
   border-collapse: separate;
   border-spacing: 40px 0px;
+}
+@media (max-width:1400px) {
+  .div-outline {
+    flex-direction: column;
+  }
 }
