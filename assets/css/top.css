@@ -211,6 +211,29 @@ margin: 0 auto;
   100% { transform:translateX(-100%); }
 }
 
+.heading01,.w-rel {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.heading01 span
+,.w-rel span {
+	position: relative;
+	z-index: 2;
+}
+
+.heading01::after
+,.w-rel::after  {
+	content: attr(data-en);
+	position: absolute;
+	transform: translateX(-50%);
+	color: var(--color-white);
+	font-size: 240px;
+  left: 50%;
+  font-weight: var(--font-weight-thin);
+}
 
 /* ワークス */
 .section-works__container {

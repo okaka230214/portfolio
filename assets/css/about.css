@@ -14,3 +14,25 @@
   gap:16px;
   align-items: baseline;
 }
+
+.heading01 {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.heading01 span {
+	position: relative;
+	z-index: 2;
+}
+
+.heading01::after {
+	content: attr(data-en);
+	position: absolute;
+	transform: translateX(-50%);
+	color: var(--color-white);
+	font-size: 240px;
+  left: 50%;
+  font-weight: var(--font-weight-thin);
+}
