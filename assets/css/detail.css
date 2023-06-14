@@ -21,10 +21,12 @@
 .clt-name{
   font-size: var(--font-size-24);
   padding-bottom: 16px;
+  padding-left: 40px;
 }
 
 .work-name{
   font-size: var(--font-size-48);
+  padding-left: 40px;
 }
 .title-wrapper {
   display: flex;
@@ -62,4 +64,13 @@
 .detail {
 max-width: 1240px;
 margin: 0 auto;
+margin-top: 80px;
+}
+.outline-table {
+  margin-top: 32px;
+  border-collapse: separate;
+  border-spacing: 40px 0px;
+}
+main {
+  display: flex;
 }
