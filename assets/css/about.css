@@ -36,3 +36,8 @@
   left: 50%;
   font-weight: var(--font-weight-thin);
 }
+
+.tags {
+  color:var(--color-secondary);
+  font-size: 10px;
+}
