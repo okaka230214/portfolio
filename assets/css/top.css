@@ -230,6 +230,17 @@ margin: 0 auto;
   line-height: 3rem;
   opacity: 0.9;
 }
+.work-detail {
+  cursor: pointer;
+  overflow: hidden;
+}
+.work-detail img {
+  transition: transform .6s ease;/* ゆっくり変化させる */
+}
+.work-detail:hover img {
+  transform: scale(1.1);/* 拡大 */
+}
+
 @media (max-width:1400px) {
   .section-works__images img {
     width: 90vw;

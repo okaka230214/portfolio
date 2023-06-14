@@ -1,3 +1,16 @@
 @charset "UTF-8";
 
 /* aboutページのCSS */
+.section-about h2 {
+  padding-top:152px;
+  text-align: center;
+  font-size: 48px;
+}
+.name {
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  gap:16px;
+  align-items: baseline;
+}
