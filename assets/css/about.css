@@ -1,18 +1,30 @@
 @charset "UTF-8";
 
 /* aboutページのCSS */
+.outline {
+  margin-top:48px;
+  margin-bottom:300px;
+  display: flex;
+  justify-content: center;
+  gap:40px
+}
+.outline img {
+  width: 20vw;
+  height:auto
+}
+
 .section-about h2 {
   padding-top:152px;
   text-align: center;
   font-size: 48px;
 }
 .name {
+  padding-top: 16px;
   font-size: 40px;
 }
 .container {
   display: flex;
-  gap:16px;
-  align-items: baseline;
+  flex-direction: column;
 }
 
 .heading01 {
@@ -39,5 +51,12 @@
 
 .tags {
   color:var(--color-secondary);
-  font-size: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--color-gray) ;
+}
+.name-area {
+  display: flex;
+  align-items: baseline;
+  gap:8px
 }
