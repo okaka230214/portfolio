@@ -323,17 +323,15 @@ a:hover {
   content: '';
 }
 
-/* アバウト部分 */
-@charset "UTF-8";
 
 /* aboutページのCSS */
-.outline {
+.abou-outline {
   margin-top:48px;
   display: flex;
   justify-content: center;
   gap:40px
 }
-.outline img {
+.abou-outline img {
   width: 20vw;
   height:auto
 }
