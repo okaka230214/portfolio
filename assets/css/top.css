@@ -325,13 +325,13 @@ a:hover {
 
 
 /* aboutページのCSS */
-.abou-outline {
+.about-outline {
   margin-top:48px;
   display: flex;
   justify-content: center;
   gap:40px
 }
-.abou-outline img {
+.about-outline img {
   width: 20vw;
   height:auto
 }
