@@ -329,7 +329,6 @@ a:hover {
 /* aboutページのCSS */
 .outline {
   margin-top:48px;
-  margin-bottom:80px;
   display: flex;
   justify-content: center;
   gap:40px
